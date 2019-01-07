@@ -1,2 +1,2 @@
 # sentiment-analysis
-Sentiment analysis of a Shakespeare's play, ''Midsummer''
+Simplistic sentiment analysis of a Shakespeare's play, ''Midsummer''.
