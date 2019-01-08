@@ -1,9 +1,7 @@
 import re
 import pandas as pd
-import numpy as np
-from math import sin, cos, sqrt, atan2, radians
+#import numpy as np
 from IPython.display import display
-import matplotlib.pyplot as plt
 
 # Open and read file
 ms = open('midsummer.txt')
@@ -187,4 +185,4 @@ print('Positive words per scece: ', pos_per_scene(
 print('Negative words per scene: ', neg_per_scene(
     scenes_cleaning(split_scenes(ms_data)))[0])
 display(compare_scenes(pos_per_scene(scenes_cleaning(split_scenes(ms_data)))[
-               0], neg_per_scene(scenes_cleaning(split_scenes(ms_data)))[0])[1])
+    0], neg_per_scene(scenes_cleaning(split_scenes(ms_data)))[0])[1])

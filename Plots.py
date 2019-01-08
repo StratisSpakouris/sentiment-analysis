@@ -1,4 +1,6 @@
 from Midsummer_SentimentAnalysis import *
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Two lists of positive & negative words respectively
 pos_words = pos_per_scene(scenes_cleaning(split_scenes(ms_data)))[0]
